@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration />
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <webroots />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-lang-groovy:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.groovy:groovy:4.0.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.groovy:groovy-json:4.0.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-service-proxy:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-service-factory:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-codegen:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-maven-service-factory:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.maven:maven-aether-provider:3.3.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.maven:maven-model:3.3.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.maven:maven-model-builder:3.3.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.plexus:plexus-interpolation:1.21" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.maven:maven-builder-support:3.3.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.maven:maven-repository-metadata:3.3.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.plexus:plexus-utils:3.0.20" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.eclipse.aether:aether-api:1.1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.eclipse.aether:aether-connector-basic:1.1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.eclipse.aether:aether-transport-file:1.1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.eclipse.aether:aether-transport-http:1.1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.httpcomponents:httpclient:4.5.13" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.httpcomponents:httpcore:4.4.15" level="project" />
+    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.1.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: commons-codec:commons-codec:1.15" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.eclipse.aether:aether-spi:1.1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.eclipse.aether:aether-impl:1.1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.eclipse.aether:aether-util:1.1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.guava:guava:30.1.1-jre" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.guava:failureaccess:1.0.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.checkerframework:checker-qual:3.8.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.errorprone:error_prone_annotations:2.5.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.j2objc:j2objc-annotations:1.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-http-service-factory:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.bouncycastle:bcpg-jdk15on:1.54" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.bouncycastle:bcprov-jdk15on:1.54" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-hazelcast:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.hazelcast:hazelcast:5.1.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-zookeeper:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.curator:curator-framework:4.3.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.curator:curator-client:4.3.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.zookeeper:zookeeper:3.5.9" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.zookeeper:zookeeper-jute:3.5.9" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.yetus:audience-annotations:0.5.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.netty:netty-transport-native-epoll:4.1.84.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.netty:netty-transport-classes-epoll:4.1.84.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.curator:curator-recipes:4.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.36" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.slf4j:slf4j-reload4j:1.7.36" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: ch.qos.reload4j:reload4j:1.2.19" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-dropwizard-metrics:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.dropwizard.metrics:metrics-core:4.2.12" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-micrometer-metrics:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.micrometer:micrometer-core:1.9.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.latencyutils:LatencyUtils:2.0.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.hdrhistogram:HdrHistogram:2.1.12" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-zipkin:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.zipkin.brave:brave:5.6.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.zipkin.zipkin2:zipkin:2.11.10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.zipkin.reporter2:zipkin-reporter:2.7.13" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.zipkin.brave:brave-instrumentation-http:5.6.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-opentracing:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.jaegertracing:jaeger-client:1.0.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.jaegertracing:jaeger-thrift:1.0.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.thrift:libthrift:0.12.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.squareup.okhttp3:okhttp:4.9.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.squareup.okio:okio:2.8.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.jaegertracing:jaeger-core:1.0.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.opentracing:opentracing-api:0.33.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.opentracing:opentracing-util:0.33.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.opentracing:opentracing-noop:0.33.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.code.gson:gson:2.9.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.jaegertracing:jaeger-tracerresolver:1.0.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.opentracing.contrib:opentracing-tracerresolver:0.1.8" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-opentelemetry:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.opentelemetry:opentelemetry-api:1.13.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.opentelemetry:opentelemetry-context:1.13.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.opentelemetry:opentelemetry-sdk:1.13.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.opentelemetry:opentelemetry-sdk-common:1.13.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.opentelemetry:opentelemetry-sdk-metrics:1.13.0-alpha" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.opentelemetry:opentelemetry-sdk-logs:1.13.0-alpha" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.opentelemetry:opentelemetry-sdk-trace:1.13.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.opentelemetry:opentelemetry-semconv:1.13.0-alpha" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-reactive-streams:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.reactivestreams:reactive-streams:1.0.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-rx-java:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-rx-java-gen:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.reactivex:rxjava:1.3.8" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-rx-gen:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-rx-java2:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-rx-java2-gen:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.reactivex.rxjava2:rxjava:2.2.21" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-rx-java3:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-rx-java3-gen:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-consul-client:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-cassandra-client:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.datastax.oss:java-driver-core:4.14.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.datastax.oss:native-protocol:1.5.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.datastax.oss:java-driver-shaded-guava:25.1-jre-graal-sub-1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.jnr:jnr-posix:3.1.15" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.jnr:jnr-ffi:2.2.11" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.jnr:jffi:1.3.9" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.jnr:jffi:native:1.3.9" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.ow2.asm:asm:9.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.ow2.asm:asm-commons:9.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.ow2.asm:asm-analysis:9.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.ow2.asm:asm-tree:9.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.ow2.asm:asm-util:9.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.jnr:jnr-a64asm:1.0.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.jnr:jnr-x86asm:1.0.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.jnr:jnr-constants:0.10.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.stephenc.jcip:jcip-annotations:1.0-1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.spotbugs:spotbugs-annotations:3.1.12" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-mongo-client:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.mongodb:mongodb-driver-reactivestreams:4.6.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.mongodb:bson:4.6.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.mongodb:mongodb-driver-core:4.6.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.mongodb:bson-record-codec:4.6.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.projectreactor:reactor-core:3.4.24" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.commons:commons-collections4:4.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-jdbc-client:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.mchange:c3p0:0.9.5.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.mchange:mchange-commons-java:0.2.19" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-auth-common:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-auth-htdigest:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-auth-htpasswd:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-auth-jwt:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-auth-jdbc:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-auth-shiro:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.shiro:shiro-core:1.8.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.shiro:shiro-lang:1.8.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.shiro:shiro-cache:1.8.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.shiro:shiro-crypto-hash:1.8.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.shiro:shiro-crypto-core:1.8.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.shiro:shiro-crypto-cipher:1.8.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.shiro:shiro-config-core:1.8.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.shiro:shiro-config-ogdl:1.8.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.shiro:shiro-event:1.8.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-auth-oauth2:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-auth-mongo:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-auth-properties:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-auth-ldap:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-auth-webauthn:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-auth-sql-client:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-auth-otp:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-web:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-web-common:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-web-client:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-web-api-contract:4.3.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.13.4.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.networknt:json-schema-validator:1.0.43" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.jruby.joni:joni:2.1.31" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.jruby.jcodings:jcodings:1.0.46" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.swagger.parser.v3:swagger-parser-v3:2.1.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.swagger.core.v3:swagger-models:2.2.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.swagger.core.v3:swagger-core:2.2.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.swagger.core.v3:swagger-annotations:2.2.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: jakarta.validation:jakarta.validation-api:2.0.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.swagger.parser.v3:swagger-parser-core:2.1.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: jakarta.activation:jakarta.activation-api:1.2.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.13.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-web-api-service:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-web-openapi:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-web-sstore-cookie:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-web-sstore-redis:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-web-sstore-infinispan:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.infinispan:infinispan-client-hotrod:13.0.12.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.infinispan:infinispan-commons:13.0.12.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.wildfly.security:wildfly-elytron-sasl-digest:1.17.2.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.wildfly.security:wildfly-elytron-auth-server:1.17.2.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.wildfly.security:wildfly-elytron-auth:1.17.2.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.wildfly.security:wildfly-elytron-base:1.17.2.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.wildfly.security:wildfly-elytron-permission:1.17.2.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.wildfly.security:wildfly-elytron-x500:1.17.2.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.wildfly.security:wildfly-elytron-credential:1.17.2.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.wildfly.security:wildfly-elytron-keystore:1.17.2.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.wildfly.security:wildfly-elytron-x500-cert:1.17.2.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.wildfly.security:wildfly-elytron-x500-cert-util:1.17.2.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.sshd:sshd-common:2.3.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.wildfly.security:wildfly-elytron-provider-util:1.17.2.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.wildfly.security:wildfly-elytron-mechanism:1.17.2.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.wildfly.security:wildfly-elytron-http:1.17.2.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.wildfly.security:wildfly-elytron-mechanism-digest:1.17.2.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.wildfly.security:wildfly-elytron-sasl:1.17.2.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.wildfly.security:wildfly-elytron-ssl:1.17.2.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.wildfly.security:wildfly-elytron-util:1.17.2.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.wildfly.security:wildfly-elytron-sasl-external:1.17.2.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.wildfly.security:wildfly-elytron-sasl-gs2:1.17.2.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.wildfly.security:wildfly-elytron-asn1:1.17.2.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.wildfly.security:wildfly-elytron-mechanism-gssapi:1.17.2.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.wildfly.security:wildfly-elytron-security-manager-action:1.17.2.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.wildfly.security:wildfly-elytron-sasl-gssapi:1.17.2.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.wildfly.security:wildfly-elytron-sasl-oauth2:1.17.2.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.wildfly.security:wildfly-elytron-mechanism-oauth2:1.17.2.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.wildfly.security:wildfly-elytron-sasl-plain:1.17.2.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.wildfly.security:wildfly-elytron-sasl-scram:1.17.2.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.wildfly.security:wildfly-elytron-mechanism-scram:1.17.2.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.wildfly.security:wildfly-elytron-password-impl:1.17.2.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.84.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: jakarta.transaction:jakarta.transaction-api:1.3.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.wildfly.common:wildfly-common:1.5.1.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.ben-manes.caffeine:caffeine:2.9.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.reactivex.rxjava3:rxjava:3.0.13" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-web-templ-thymeleaf:shaded:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.thymeleaf:thymeleaf:3.0.15.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: ognl:ognl:3.1.26" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.attoparser:attoparser:2.0.5.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.unbescape:unbescape:1.1.6.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.javassist:javassist:3.21.0-GA" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-web-templ-handlebars:shaded:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.jknack:handlebars:4.3.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-web-templ-jade:shaded:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: de.neuland-bfi:jade4j:1.3.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.commons:commons-jexl:2.1.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:1.4.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.vladsch.flexmark:flexmark:0.42.14" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.vladsch.flexmark:flexmark-util:0.42.14" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.commons:commons-lang3:3.12.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-web-templ-mvel:shaded:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.mvel:mvel2:2.3.1.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-web-templ-pebble:shaded:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.pebbletemplates:pebble:3.1.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-web-templ-freemarker:shaded:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.freemarker:freemarker:2.3.31" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-web-templ-rocker:shaded:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.fizzed:rocker-runtime:1.3.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-web-templ-httl:shaded:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.perfcake:httl:1.0.12" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-web-graphql:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.graphql-java:graphql-java:18.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.graphql-java:java-dataloader:3.1.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.antlr:antlr4-runtime:4.9.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-web-proxy:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-web-validation:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-sockjs-service-proxy:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-mail-client:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-redis-client:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-shell:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.termd:termd-core:1.1.6" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.sshd:sshd-core:1.2.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-sync:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: co.paralleluniverse:quasar-core:jdk8:0.7.10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.esotericsoftware:kryo:4.0.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.esotericsoftware:reflectasm:1.11.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.esotericsoftware:minlog:1.3.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.objenesis:objenesis:2.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: de.javakaffee:kryo-serializers:0.42" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-stomp:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-infinispan:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.infinispan:infinispan-core:13.0.12.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.infinispan.protostream:protostream:4.4.4.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.infinispan.protostream:protostream-types:4.4.4.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.jgroups:jgroups:4.2.18.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.jboss.logging:jboss-logging:3.4.3.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.jboss.threads:jboss-threads:2.3.3.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.infinispan:infinispan-multimap:13.0.12.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.infinispan:infinispan-clustered-lock:13.0.12.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.infinispan:infinispan-clustered-counter:13.0.12.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-bridge-common:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-tcp-eventbus-bridge:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-sql-client:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-pg-client:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-mysql-client:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-db2-client:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-mssql-client:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-oracle-client:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.oracle.database.jdbc:ojdbc11:21.5.0.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-sql-client-templates:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-camel-bridge:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-core:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-core-engine:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-api:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-base-engine:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-base:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-core-reifier:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-core-processor:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-management-api:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-support:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-util:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-core-languages:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-core-model:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-bean:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-browse:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-cluster:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-controlbus:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-dataformat:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-dataset:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-direct:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-directvm:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-file:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-health:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-language:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-log:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-mock:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-ref:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-rest:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-tooling-model:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-util-json:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-saga:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-scheduler:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-seda:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-stub:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-timer:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-validator:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-vm:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-xpath:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-xslt:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-xml-jaxb:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.xml.bind:jaxb-core:2.3.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.xml.bind:jaxb-impl:2.3.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.activation:jakarta.activation:1.2.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-xml-jaxp:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.camel:camel-xml-io-util:3.14.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.fusesource.hawtbuf:hawtbuf:1.11" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-ignite:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.ignite:ignite-core:2.13.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: javax.cache:cache-api:1.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains:annotations:16.0.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-rabbitmq-client:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.rabbitmq:amqp-client:5.14.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-service-discovery:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-circuit-breaker:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-service-discovery-bridge-kubernetes:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-service-discovery-bridge-docker-links:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-service-discovery-bridge-docker:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.commons:commons-compress:1.19" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: commons-io:commons-io:2.7" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.docker-java:docker-java-core:3.2.12" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.docker-java:docker-java-api:3.2.12" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.docker-java:docker-java-transport:3.2.12" level="project" />
+    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.bouncycastle:bcpkix-jdk15on:1.64" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.docker-java:docker-java-transport-httpclient5:3.2.12" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.httpcomponents.client5:httpclient5:5.1.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.httpcomponents.core5:httpcore5:5.1.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: net.java.dev.jna:jna:5.8.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-service-discovery-backend-redis:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-service-discovery-bridge-consul:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-service-discovery-bridge-zookeeper:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.curator:curator-x-discovery:2.13.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.13" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.13" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-config-git:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.eclipse.jgit:org.eclipse.jgit:4.4.1.201607150455-r" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.jcraft:jsch:0.1.53" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.googlecode.javaewah:JavaEWAH:0.7.9" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-config-hocon:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.typesafe:config:1.4.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-config-kubernetes-configmap:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-config-redis:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-config-spring-config-server:4.3.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.13.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-config-yaml:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-config-zookeeper:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-grpc:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.grpc:grpc-netty:1.47.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.grpc:grpc-core:1.47.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.android:annotations:4.1.1.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.perfmark:perfmark-api:0.25.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.grpc:grpc-protobuf:1.47.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.grpc:grpc-api:1.47.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.grpc:grpc-context:1.47.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.protobuf:protobuf-java:3.19.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.api.grpc:proto-google-common-protos:2.0.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.grpc:grpc-protobuf-lite:1.47.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.grpc:grpc-stub:1.47.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: javax.annotation:javax.annotation-api:1.3.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-proton:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.qpid:proton-j:0.34.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-amqp-client:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-kafka-client:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.kafka:kafka-clients:3.1.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.luben:zstd-jni:1.5.0-4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.lz4:lz4-java:1.8.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.xerial.snappy:snappy-java:1.1.8.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-json-schema:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-health-check:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-mqtt:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.netty:netty-codec-mqtt:4.1.84.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-http-proxy:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-uri-template:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-grpc-common:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-grpc-client:4.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.vertx:vertx-grpc-server:4.3.4" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.7.5" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.7.5" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context:5.3.23" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.7.5" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-logging:2.7.5" level="project" />
+    <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.2.11" level="project" />
+    <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:1.2.11" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-to-slf4j:2.17.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.17.2" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:jul-to-slf4j:1.7.36" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.annotation:jakarta.annotation-api:1.3.5" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-core:5.3.23" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.3.23" level="project" />
+    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.30" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:2.7.5" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-json:2.7.5" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.4" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:2.7.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.68" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:9.0.68" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:9.0.68" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-web:5.3.23" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.23" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:5.3.23" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.3.23" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.3.23" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.mysql:mysql-connector-j:8.0.31" level="project" />
+    <orderEntry type="library" name="Maven: com.yomahub:liteflow-spring-boot-starter:2.9.3" level="project" />
+    <orderEntry type="library" name="Maven: com.yomahub:liteflow-spring:2.9.3" level="project" />
+    <orderEntry type="library" name="Maven: com.yomahub:liteflow-core:2.9.3" level="project" />
+    <orderEntry type="library" name="Maven: cn.hutool:hutool-core:5.8.8" level="project" />
+    <orderEntry type="library" name="Maven: org.dom4j:dom4j:2.1.3" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:transmittable-thread-local:2.12.3" level="project" />
+    <orderEntry type="library" name="Maven: net.bytebuddy:byte-buddy:1.12.18" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:QLExpress:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.9.4" level="project" />
+    <orderEntry type="library" name="Maven: com.yomahub:liteflow-rule-sql:2.9.3" level="project" />
+    <orderEntry type="library" name="Maven: com.yomahub:liteflow-script-groovy:2.9.3" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-jsr223:3.0.13" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy:3.0.13" level="project" />
+    <orderEntry type="library" name="Maven: com.baomidou:mybatis-plus-boot-starter:3.5.2" level="project" />
+    <orderEntry type="library" name="Maven: com.baomidou:mybatis-plus:3.5.2" level="project" />
+    <orderEntry type="library" name="Maven: com.baomidou:mybatis-plus-extension:3.5.2" level="project" />
+    <orderEntry type="library" name="Maven: com.baomidou:mybatis-plus-core:3.5.2" level="project" />
+    <orderEntry type="library" name="Maven: com.baomidou:mybatis-plus-annotation:3.5.2" level="project" />
+    <orderEntry type="library" name="Maven: com.github.jsqlparser:jsqlparser:4.4" level="project" />
+    <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.5.10" level="project" />
+    <orderEntry type="library" name="Maven: org.mybatis:mybatis-spring:2.0.7" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib:1.6.21" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-common:1.6.21" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.21" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-jdbc:2.7.5" level="project" />
+    <orderEntry type="library" name="Maven: com.zaxxer:HikariCP:4.0.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:5.3.23" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.3.23" level="project" />
+    <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.16.22" level="project" />
+    <orderEntry type="library" name="Maven: cn.hutool:hutool-all:5.8.10" level="project" />
+    <orderEntry type="library" name="Maven: io.vertx:vertx-core:4.3.4" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-common:4.1.84.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-buffer:4.1.84.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-transport:4.1.84.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-handler:4.1.84.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-transport-native-unix-common:4.1.84.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec:4.1.84.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-handler-proxy:4.1.84.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec-socks:4.1.84.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec-http:4.1.84.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec-http2:4.1.84.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-resolver:4.1.84.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-resolver-dns:4.1.84.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec-dns:4.1.84.Final" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.13.4" level="project" />
+    <orderEntry type="library" name="Maven: io.vertx:vertx-config:4.3.4" level="project" />
+  </component>
+</module>
