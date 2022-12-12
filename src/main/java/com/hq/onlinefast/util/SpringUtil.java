@@ -1,5 +1,6 @@
 package com.hq.onlinefast.util;
 
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeansException;
@@ -7,11 +8,12 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
 
+@Slf4j
 @Component
 public class SpringUtil implements ApplicationContextAware {
 
     private static ApplicationContext applicationContext;
-    private static Logger logger = LoggerFactory.getLogger(SpringUtil.class);
+//    private static Logger logger = LoggerFactory.getLogger(SpringUtil.class);
 
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
@@ -20,7 +22,7 @@ public class SpringUtil implements ApplicationContextAware {
             SpringUtil.applicationContext = applicationContext;
         }
 
-        logger.info("ApplicationContext配置成功,applicationContext对象："+SpringUtil.applicationContext);
+        log.info("ApplicationContext配置成功,applicationContext对象："+SpringUtil.applicationContext);
     }
 
     public static ApplicationContext getApplicationContext(){

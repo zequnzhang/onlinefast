@@ -8,6 +8,7 @@ import com.yomahub.liteflow.core.FlowExecutor;
 import com.yomahub.liteflow.flow.LiteflowResponse;
 import com.yomahub.liteflow.slot.DefaultContext;
 import com.yomahub.liteflow.util.JsonUtil;
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,8 +21,9 @@ import javax.annotation.Resource;
 import java.util.List;
 
 @Controller
+@Slf4j
 public class TestController {
-    private Logger log = LoggerFactory.getLogger(getClass());
+//    private Logger log = LoggerFactory.getLogger(getClass());
     @Resource
     private FlowExecutor flowExecutor;
     @Autowired
