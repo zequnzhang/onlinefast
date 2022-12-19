@@ -95,5 +95,31 @@
             <artifactId>logstash-logback-encoder</artifactId>
             <version>4.11</version>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.codehaus.groovy</groupId>-->
+<!--            <artifactId>groovy-jsr223</artifactId>-->
+<!--            <version>3.0.13</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>com.jfinal</groupId>-->
+<!--            <artifactId>jfinal</artifactId>-->
+<!--            <version>5.0.8</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>com.jfinal</groupId>-->
+<!--            <artifactId>jfinal-undertow</artifactId>-->
+<!--            <version>3.3</version>-->
+<!--        </dependency>-->
+        <!-- https://mvnrepository.com/artifact/com.alibaba/druid -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.2.15</version>
+        </dependency>
+        <dependency>
+            <groupId>com.jfinal</groupId>
+            <artifactId>activerecord</artifactId>
+            <version>5.0.4</version>
+        </dependency>
     </dependencies>
 </project>

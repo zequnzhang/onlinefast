@@ -484,5 +484,7 @@
     <orderEntry type="library" name="Maven: net.logstash.logback:logstash-logback-encoder:4.11" level="project" />
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:1.2.11" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.13.4.2" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:druid:1.2.15" level="project" />
+    <orderEntry type="library" name="Maven: com.jfinal:activerecord:5.0.4" level="project" />
   </component>
 </module>
