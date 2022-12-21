@@ -1,0 +1,2 @@
+t1 = THEN(s2.tag("sub1"),s2.tag("sub2"),s2.tag("sub3"));
+THEN(t1,s2.tag("tag1"),s2.tag("tag2"),s2.tag("tag3"));

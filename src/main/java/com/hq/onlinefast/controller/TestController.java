@@ -2,6 +2,9 @@ package com.hq.onlinefast.controller;
 
 import cn.hutool.json.JSONUtil;
 import com.baomidou.mybatisplus.core.toolkit.Assert;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ArrayNode;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.hq.onlinefast.bean.Script;
 import com.hq.onlinefast.bean.User;
 import com.hq.onlinefast.mapper.ScriptMapper;
@@ -35,6 +38,7 @@ public class TestController {
     private UserMapper userMapper;
     @Autowired
     private ScriptMapper scriptMapper;
+    private static final ObjectMapper mapper = new ObjectMapper();
 
     @RequestMapping(value = "/getdata")
     @ResponseBody
@@ -76,5 +80,46 @@ public class TestController {
 //        return userList.toString();
         List<Record> users = Db.findAll("user");
         return users.toString();
+    }
+
+    @RequestMapping(value = "/testJsonParam")
+    @ResponseBody
+    public String testJsonParam() {
+        flowExecutor.reloadRule();
+        ObjectNode rootNode = mapper.createObjectNode();
+
+        ObjectNode childNode1 = mapper.createObjectNode();
+
+        childNode1.put("name1","val1");
+
+        childNode1.put("name2","val2");
+
+        rootNode.set("obj1",childNode1);
+
+        ObjectNode childNode2 = mapper.createObjectNode();
+
+        childNode2.put("name3","val3");
+
+        childNode2.put("name4","val4");
+
+        rootNode.set("obj2",childNode2);
+
+        ObjectNode childNode3 = mapper.createObjectNode();
+
+        childNode3.put("name5","val5");
+
+        childNode3.put("name6","val6");
+
+        ArrayNode arrayNode = mapper.createArrayNode();
+        arrayNode.add(childNode1);
+        arrayNode.add(childNode2);
+        arrayNode.add(childNode3);
+
+        rootNode.set("obj3",childNode3);
+        rootNode.set("obj4",arrayNode);
+        log.info(rootNode.toString());
+        LiteflowResponse response = flowExecutor.execute2Resp("chain2",null ,rootNode);
+        log.info(rootNode.toString());
+        return rootNode.toString();
     }
 }

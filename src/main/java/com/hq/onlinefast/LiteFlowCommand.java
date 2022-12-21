@@ -2,7 +2,6 @@ package com.hq.onlinefast;
 
 import cn.hutool.json.JSONUtil;
 import com.hq.onlinefast.bean.User;
-import com.hq.onlinefast.jfinal.DemoConfig;
 import com.jfinal.plugin.activerecord.ActiveRecordPlugin;
 import com.jfinal.plugin.activerecord.Db;
 import com.jfinal.plugin.activerecord.Record;
@@ -79,12 +78,11 @@ public class LiteFlowCommand implements CommandLineRunner {
         Vertx vertx = Vertx.vertx();
 
         DeploymentOptions options0 = new DeploymentOptions().setInstances(10);
-        DeploymentOptions options1 = new DeploymentOptions().setWorker(true).setInstances(10).setWorkerPoolName("test-1").setWorkerPoolSize(20);
+        DeploymentOptions options1 = new DeploymentOptions().setWorker(true).setInstances(10).setWorkerPoolName("worker").setWorkerPoolSize(20);
 //  val options2 = DeploymentOptions().setWorker(true).setInstances(2).setWorkerPoolName("test-2").setWorkerPoolSize(10)
-        vertx.deployVerticle("com.hq.onlinefast.vertx.BusinessVerticle",options0);
-        vertx.deployVerticle("com.hq.onlinefast.vertx.WebServerVerticle", options1);
-//  vertx.deployVerticle("com.sdyg.test.TestB", options2)
-//  vertx.deployVerticle("com.sdyg.test.TestC", options1)
+        vertx.deployVerticle("com.hq.onlinefast.vertx.BusinessVerticle",options1);
+        vertx.deployVerticle("com.hq.onlinefast.vertx.WebServerVerticle", options0);
+
         log.info("vert.x启动完成");
     }
 }
